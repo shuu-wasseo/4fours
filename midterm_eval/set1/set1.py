@@ -54,7 +54,7 @@ def works(num, numofnums, data):
         lis.append(num)
     for n, s in generate(lis):
         toteqns += 1
-        if toteqns % 1000000 == 0:
+        if toteqns % 100000 == 0:
             print("eqns analysed: " + str(toteqns) + " for " + str(lis))
         if isinstance(n, complex) == False:
             if n % 1 == 0 and n >= 0:
