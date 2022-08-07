@@ -9,6 +9,7 @@
 # Exact arithmetic is used. Only integer exponents between -99 and 99 are allowed.
 
 from fractions import Fraction
+
 import math
 import csv
 
@@ -59,7 +60,7 @@ def works(num, numofnums, data):
         lis.append(num)
     for n, s in generate(lis):
         toteqns += 1
-        if toteqns % 1000000 == 0:
+        if toteqns % 100000 == 0:
             print("eqns analysed: " + str(toteqns) + " for " + str(lis))
         if isinstance(n, complex) == False:
             if n % 1 == 0 and n >= 0:
@@ -80,8 +81,10 @@ def works(num, numofnums, data):
 opl35 = ["123", "124", "125", "134", "135", "145", "234", "235", "245", "345"]
 
 for x in opl35:
-    number = int(input("enter your number x: "))
-    numberofnumbers = int(input("enter your number y, which is the number of instances of x you would like to include: "))
+    #number = int(input("enter your number x: "))
+    #numberofnumbers = int(input("enter your number y, which is the number of instances of x you would like to include: "))
+    number = 20
+    numberofnumbers = 6
     header = ["number of instances"]
     op = x
     results = []
@@ -93,13 +96,21 @@ for x in opl35:
     non = numberofnumbers
     
     if non > 0:
-        y = non
-        #for y in range(non-1):
-        data = [non]
-        for x in range(number+1):
-            if x >= 1 and non >= 2:
-                print("finding "+str(y)+" instances of "+str(x)+"...")
-                works(x, y, data)
-        data = data[2:]
-        results.append(data)
-        print(results)
+        #y = non
+        for y in range(non):
+            data = [non]
+            for x in range(number+1):
+                if x >= 1 and non >= 2:
+                    print("finding "+str(y+1)+" instances of "+str(x)+" with " + op + "...")
+                    works(x, y+1, data)
+            data = data[2:]
+            results.append(data)
+            print("op: " + op)
+            for x in results:
+                print(str(x)[1:-1])
+            if y == non-1:
+                print("added to results.txt.")
+                with open('results.txt', 'a') as r:
+                    r.writelines("op: " + op + "\n")
+                    for x in results:
+                        r.writelines(str(x)[1:-1] + "\n")
