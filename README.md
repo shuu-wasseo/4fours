@@ -1,5 +1,5 @@
 # 4fours
-this is a GitHub repo containing the programs used for my project work group in 2022's mathematical calculations. all of these programs have been adopted from code by user [Radcliffe](https://github.com/Radcliffe), specifically [four-fours.py](https://gist.github.com/Radcliffe/fab1cefe6e2a3a23466539a7ecbc6edb).
+this is a GitHub repo containing the programs used for my project work group in 2022's mathematical calculations. all of these programs have been adopted from code by user [Radcliffe](https://github.com/Radcliffe), specifically [four-fours.py](https://gist.github.com/Radcliffe/fab1cefe6e2a3a23466539a7ecbc6edb). note that in all of the code outside functions works() and partition(), all of the code was written by me.
 
 as of august 13, 2022, here is the list of all files in the repository.
 
