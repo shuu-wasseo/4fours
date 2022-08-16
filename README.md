@@ -1,7 +1,7 @@
 # 4fours
 this is a GitHub repo containing the programs used for my project work group in 2022's mathematical calculations. all of these programs have been adopted from code by user [Radcliffe](https://github.com/Radcliffe), specifically [four-fours.py](https://gist.github.com/Radcliffe/fab1cefe6e2a3a23466539a7ecbc6edb). note that in all of the code outside functions works() and partition(), all of the code was written by me.
 
-this code was written to provide more convenience in our mass calculations as iterating through all possible permutations of operations and integers is not viable and would be extremely cumbersome and time-consuming. this repository contains files that greatly sped up our data collection to find patterns.
+due to my proficiency with python, i was able to use it to iterate through many different combinations of the operators and numbers given quickly and efficiently. this code was written to provide more convenience in our mass calculations as iterating through all possible permutations of operations and integers is not viable and would be extremely cumbersome and time-consuming. this repository contains python programs that greatly sped up our data collection to find patterns. 
 
 as of august 13, 2022, here is the list of all files in the repository.
 
