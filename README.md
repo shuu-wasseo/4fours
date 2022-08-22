@@ -19,6 +19,7 @@ as of august 13, 2022, here is the list of all files in the repository.
 # problem description
 
 (this problem is based on the 4 fours puzzle, using 4 fours and BODMAS operations to create as many integers as possible.)
+
 __our aim: for any non-negative integer y and any real number x, find out how the operations used (such as factorial, square root, power) affect the type of number and range that can be constructed by operating on y instances of x.__
 
 # research questions
