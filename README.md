@@ -16,9 +16,14 @@ as of august 13, 2022, here is the list of all files in the repository.
   - [set1s.py](https://github.com/shuu-wasseo/4fours/blob/main/final_eval/set1s.py). based on [set1.py](https://github.com/shuu-wasseo/4fours/blob/main/midterm_eval/set1.py) but also allows user to choose which operations to include (mostly used for combinations for 4 operations). *used mainly for RQ3 (see research questions below).*
   - [set1s3.py](https://github.com/shuu-wasseo/4fours/blob/main/final_eval/set1s3.py). based on [set1s.py](https://github.com/shuu-wasseo/4fours/blob/main/final_eval/set1s.py) but just iterates through all possible combinations of 3 operations (from the main 5). *used mainly for RQ3 (see research questions below).*
 
+# problem description
+
+(this problem is based on the 4 fours puzzle, using 4 fours and BODMAS operations to create as many integers as possible.)
+__our aim: for any non-negative integer y and any real number x, find out how the operations used (such as factorial, square root, power) affect the type of number and range that can be constructed by operating on y instances of x.__
+
 # research questions
 
-1. How does the non-negative integer used in the puzzle affect the maximum limit (i.e. the highest consecutive number that the puzzle equation can make)?
-2. How does the number of instances of the non-negative integer used in the puzzle affect the maximum limit?
-3. How does the inclusion of different operators affect the maximum limit?
-4. Can we use similar patterns observed on other numbers, such as negative, non-integer, irrational or imaginary numbers?
+1. how does the non-negative integer used in the puzzle affect the maximum limit (i.e. the highest consecutive number that the puzzle equation can make)?
+2. how does the number of instances of the non-negative integer used in the puzzle affect the maximum limit?
+3. how does the inclusion of different operators affect the maximum limit?
+4. can we use similar patterns observed on other numbers, such as negative, non-integer, irrational or imaginary numbers?
